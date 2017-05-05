@@ -1,0 +1,55 @@
+<html>
+<head>
+
+</head>
+<body background="redbackground.jpg">
+<div align=left>
+
+<font color="white" > <h3> LOGIN <h3> </font> 
+<br>
+<font color="white"> Username</font>
+&nbsp
+<input type="text box">
+<br><br>
+<font color="white"> Password</font>
+&nbsp
+<input type="password">
+<br>
+&nbsp &nbsp &nbsp
+<button type="submit" class="btn btn-danger login-form-head">Login</button>
+</div>
+<div align=center>
+<font face="arial" align="left" color="white" size="5" > Search Blood Donors </font>
+<br><br>
+<form action="process.php" method="POST">
+<font color="white" size="3"> &nbsp Blood Group* &nbsp &nbsp;<font>
+<select name="bloodgroup">
+  <option value="A+">A+     </option>
+  <option value="A-">A-     </option>
+  <option value="B+">B+     </option>
+  <option value="B-">B-     </option>
+  <option value="O+">O+     </option>
+  <option value="O-">O-     </option>
+  <option value="AB+">AB+   </option>
+  <option value="AB-">AB-   </option>
+</select> 
+
+<font color="white" size="3"> &nbsp City* &nbsp &nbsp;<font>
+<select name="city">
+<option value="Delhi">Delhi</option>
+<option value="Mumbai">Mumbai</option>
+<option value="">Kolkata</option>
+<option value="">Chennai</option>
+<option value="">Hyderabad</option>
+<option value="">Nagpur</option>
+<option value="">Pune</option>
+</select>
+&nbsp &nbsp
+<input type="submit" value="SEARCH"></button>
+<br>
+</form>
+</div>
+
+
+</body>
+</html>
